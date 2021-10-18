@@ -218,6 +218,7 @@ input, select, textarea {
 		width: 1400px;
 	}
 
+
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
@@ -1795,11 +1796,14 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		padding-left: 1em;
+		padding-left: 0em;
+		text-align: center;
+		display: inline-block;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0em;
+			text-align: center;
 		}
 
 	ol {
