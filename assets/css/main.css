@@ -1796,7 +1796,10 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		padding-left: 0em;
+		padding-left: 1em;
+	}
+
+	.skillslist {
 		text-align: center;
 		display: inline-block;
 	}
